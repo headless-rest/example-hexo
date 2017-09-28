@@ -5,7 +5,7 @@ const matter = require('gray-matter')
 
 const HEADLESS_TOKEN = '3eqUsAwZa59vNSHXhQBQ1lxWILXy9u7u'
 
-axios.get('http://content.headless.rest/api/v1/demo-website/content/blog', {
+axios.get('https://content.headless.rest/api/v1/demo-website/content/blog', {
   params: {
     token: HEADLESS_TOKEN
   }
